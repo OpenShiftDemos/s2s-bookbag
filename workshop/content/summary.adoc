@@ -1,0 +1,9 @@
+:USER_GUID: %GUID%
+:USERNAME: %USERNAME%
+:markup-in-source: verbatim,attributes,quotes
+:show_solution: true
+
+== Summary of what we saw today 
+--- 
+
+Congratulations
