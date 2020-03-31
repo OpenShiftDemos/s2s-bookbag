@@ -4,6 +4,6 @@ modules:
   activate:
     - overview
     - prepare-environment
-    - exercises
-    - cleanup
-    - solving-resetting
+    - jupyter
+    - notebooks
+    - summary
