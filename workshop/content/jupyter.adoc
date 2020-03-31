@@ -1,0 +1,15 @@
+:USER_GUID: %GUID%
+:USERNAME: %USERNAME%
+:markup-in-source: verbatim,attributes,quotes
+:show_solution: true
+
+== Installation
+
+The main structure of the workshop is given by [the notebooks](../source). 
+
+If you haven't used Jupyter notebooks before, please refer to https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#notebook-user-interface[the user documentation at Project Jupyter] to get comfortable with explaining details of how things work to users.  Some things to keep in mind, though, are:
+
+- Jupyter notebooks are a literate programming environment combining _cells_ containing narration and cells containing code.  When a user executes a code cell, the output of running the code (whether a value, a table of records, a graph, or an error) is appended to the code cell.
+- Shift+Enter always executes the current cell and advances to the next one.  *This is really all of the Jupyter interface anyone absolutely needs to know.*
+- Cells only run if you execute them, you can run a cell more than once, you can edit a cell and run it again (or not).  This can be confusing!  Don't assume that you can reproduce the output in a notebook you've seen 
+- If you get really stuck, head up to the `Kernel` menu and select `Restart and clear output` to start fresh.
