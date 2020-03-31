@@ -7,26 +7,14 @@
 
 // Describe the steps the student has to perform to prepare for the lab exercises
 
-To prepare the environment for the lab exercises complete the following steps.
-
-. Install ...
-
-. Configure ...
-
-. Use the following commands:
-+
-[source,options="nowrap",subs="{markup-in-source}"]
-----
-$ *ansible localhost -m lineinfile -a 'path=$HOME/.bashrc regexp="^export OCP_RELEASE" line="export OCP_RELEASE=4.3.1"'*
-
-$ *source $HOME/.bashrc*
-----
+=== Logging into the Openshift Console
 
 
-Congratulations! This was a long phase, but you are finished with your preparation work.
+---
 
-You have completed the following:
+=== Logging into jupyter hub 
 
-* Deployed ...
-* Created ...
-* Customized ...
+--- 
+
+Congratulaitons, we're now ready to get started with the workshop
+
