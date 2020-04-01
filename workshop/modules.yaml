@@ -9,7 +9,7 @@ modules:
   notebooks:
     name: Jupyter Notebooks
     exit_sign: Lab Exercises
-  exercises:
+  jupyter:
     name: Lab Exercises
     exit_sign: Summary
   summary:
