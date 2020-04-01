@@ -5,7 +5,7 @@ modules:
     exit_sign: Prepare Environment
   prepare-environment:
     name: Prepare Environment
-	exit_sign: Jupyter Notebooks
+    exit_sign: Jupyter Notebooks
   notebooks:
     name: Jupyter Notebooks
     exit_sign: Lab Exercises
