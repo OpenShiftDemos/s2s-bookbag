@@ -1,6 +1,17 @@
 :markup-in-source: verbatim,attributes,quotes
 
 
+= Deployment
+
+Make sure you are logged into an openshift cluster and are in your project. 
+
+` oc process -f build-template.yaml -p GIT_REPO="https://gitlab.com/2020-summit-labs/stats-to-serverless-bookbag.git" | oc apply -f -`
+
+`oc start-build bookbag --follow` 
+
+`oc process -f deploy-template.yaml -p WORKSHOP_VARS="$(cat envvars/workshop-vars.js)" | oc apply -f -` 
+
+
 
 = Bookbag Template
 
