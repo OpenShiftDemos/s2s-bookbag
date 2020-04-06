@@ -1,5 +1,6 @@
-:USER_GUID: %GUID%
-:USERNAME: %USERNAME%
+:USER_GUID: %guid%
+:USERNAME: %user%
+:PASSWORD: %password%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
@@ -26,4 +27,5 @@ Your GUID is: *{USER_GUID}*
 
 Your username is: *{USERNAME}*
 
+Your password is: *{PASSWORD}*
 ----
