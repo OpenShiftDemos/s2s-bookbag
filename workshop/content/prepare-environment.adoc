@@ -3,16 +3,39 @@
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-== Prepare Environment
+== Setting up your environment
 
-// Describe the steps the student has to perform to prepare for the lab exercises
+In today's lab we wil be working solely with the OpenShift Console. The console is accessed through a url in your web browser, and you will have to log in with your unique username and password, given below.
 
 === Logging into the Openshift Console
 
+Here is some important information about your environment:
 
----
+Your GUID is: *{USER_GUID}*
+
+Your username is: *{USERNAME}*
+
+Your password is: *{PASSWORD}*
+
+Visit **WHAT WEBSITE ARE PEOPLE GOING TO?** And log in with your username and password given above. 
+
+If you haven't seen the OpenShift 4 developer console before, then spend a few minutes getting familiar. 
+
 
 === Logging into jupyter hub 
+
+Today we'll be working in Jupyterhub. Jupyterhub is .... 
+
+
+In order to access Jupyterhub you need to re-authenticate with the username and password you used to login to the system. 
+
+This will take you to a screen that looks like this. 
+
+File directory for a persistent volume. 
+
+We are ready to get started. 
+---
+
 
 --- 
 
