@@ -18,22 +18,10 @@ This hands-on lab will show you how the machine learning workflow naturally fits
 
 You'll get the opportunity to develop your own model for a real use case Fraud Detection. You'll see how Data Scientists work, how models are trained and to put machine learning models into production.
 
+You'll see how to take advantage of the serverless capabilities of OpenShift and how to utilise to make scalable, intelligent applications. 
+
 Application developers will leave this session equipped to build apps that depend on machine learning; machine learning engineers and data scientists will leave this session prepared to take full advantage of OpenShift 4 for their daily work. 
 
 All attendees will develop an understanding of how OpenShift supports both data science discovery and production machine learning systems.
 
-
-== User Information
-
-Here is your user information:
-
-[source,bash,options="nowrap",subs="{markup-in-source}"]
-----
-Here is some important information about your environment:
-
-Your GUID is: *{USER_GUID}*
-
-Your username is: *{USERNAME}*
-
-Your password is: *{PASSWORD}*
-----
+Let's get started! 
