@@ -1,11 +1,16 @@
-:USER_GUID: %GUID%
-:USERNAME: %USERNAME%
+:USER_GUID: %guid%
+:USERNAME: %user%
+:PASSWORD: %password%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-== Setting up your environment
-
 In today's lab we wil be working solely with the OpenShift Console. The console is accessed through a url in your web browser, and you will have to log in with your unique username and password, given below.
+
+In this section we will guide you through the log in process and get you set up for the workshop. We will:
+- log into OpenShift
+- access your OpenShift project 
+- log into JupyterHub
+- access the Jupyter notebooks that you'll be working through
 
 === Logging into the Openshift Console
 
@@ -17,7 +22,11 @@ Your username is: *{USERNAME}*
 
 Your password is: *{PASSWORD}*
 
-Visit **WHAT WEBSITE ARE PEOPLE GOING TO?** And log in with your username and password given above. 
+Visit **VISIT WEBSITE?** where you should see a screen like this:
+
+image::ocp-login.png[]
+
+** And log in with your username and password given above. 
 
 If you haven't seen the OpenShift 4 developer console before, then spend a few minutes getting familiar. 
 

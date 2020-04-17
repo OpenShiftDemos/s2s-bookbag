@@ -1,10 +1,10 @@
 ---
 modules:
   overview:
-    name: Workshop Overview
-    exit_sign: Prepare Environment
+    name: From statistics to serverless - building intelligent applications on OpenShift 4
+    exit_sign: Setting up your environment
   prepare-environment:
-    name: Prepare Environment
+    name: Setting up your environment
     exit_sign: Jupyter Notebooks
   notebooks:
     name: Jupyter Notebooks
