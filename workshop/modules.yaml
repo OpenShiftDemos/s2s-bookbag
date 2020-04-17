@@ -6,10 +6,10 @@ modules:
   prepare-environment:
     name: Setting up your environment
     exit_sign: Jupyter Notebooks
-  notebooks:
+  jupyter:
     name: Jupyter Notebooks
     exit_sign: Lab Exercises
-  jupyter:
+  notebooks:
     name: Lab Exercises
     exit_sign: Summary
   summary:
