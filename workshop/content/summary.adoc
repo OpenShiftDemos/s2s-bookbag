@@ -3,7 +3,13 @@
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-== Summary of what we saw today 
---- 
 
-Congratulations
+Congratulations! You're now ready to go out into the world and make serverless, intelligent applications. You have seen: 
+
+- how OpenShift streamlines the path from discovery to production for data scientists and developers alike,
+- the advantages of serverless for machine learning systems,
+- how to train, evaluate, and publish models in a contemporary serverless architecture,
+- how to monitor models in production and detect failures before they cause problems, and
+- how to start incorporating intelligent features into your apps.
+
+**links for people to follow up here**
