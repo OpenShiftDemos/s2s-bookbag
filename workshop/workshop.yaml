@@ -4,7 +4,7 @@ modules:
   activate:
     - overview
     - prepare-environment
-	- jupyterhub-setup
+    - jupyterhub-setup
     - jupyter
     - notebooks
     - summary
