@@ -24,7 +24,7 @@ __(Note that the url given under 'Location' will differ from the url in the imag
 
 This url will take you to a page asking you to 'Sign in with OpenShift'. Go ahead and click that big orange button.
 
-image::jg-sign-in-with-os.png[]
+image::jh-sign-in-with-os.png[]
 
 In order to access Jupyterhub you need to re-authenticate with the username and password you used to login to OpenShift. Go ahead and enter your username and password: 
 
