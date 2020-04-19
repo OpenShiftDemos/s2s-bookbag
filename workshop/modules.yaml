@@ -2,9 +2,12 @@
 modules:
   overview:
     name: From statistics to serverless - building intelligent applications on OpenShift 4
-    exit_sign: Setting up your environment
+    exit_sign: Logging into OpenShift
   prepare-environment:
-    name: Setting up your environment
+    name: Logging into Openshift
+    exit_sign: Logging into JupyterHub
+  jupyterhub-setup:
+    name: Logging into JupyterHub
     exit_sign: Jupyter Notebooks
   jupyter:
     name: Jupyter Notebooks
