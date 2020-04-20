@@ -29,7 +29,7 @@ This will take you to a page asking you to authorise some requested permissions.
 
 image::jh-spawner.png[width=750]
 
-**All these variables have been pre-set to the correct values for you, so do not change any spawner options**
+**All these variables have been pre-set to the correct values for you, so do not change any spawner options.**
 
 From top to bottom, the variables on this page are:
 

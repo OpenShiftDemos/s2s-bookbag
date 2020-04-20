@@ -1,15 +1,12 @@
-:USER_GUID: %GUID%
-:USERNAME: %USERNAME%
+:USER_GUID: %guid%
+:USERNAME: %user%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-== Installation
+You're now inside your JuptyerHub instance. The noteboks we will be working with today are in the `fraud-notebooks` folder, so go ahead and click on that. 
 
-The main structure of the workshop is given by [the notebooks](../source). 
+image::access-notebooks.png[width=750]
 
-If you haven't used Jupyter notebooks before, please refer to https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#notebook-user-interface[the user documentation at Project Jupyter] to get comfortable with explaining details of how things work to users.  Some things to keep in mind, though, are:
+If you haven't used Jupyter notebooks before, or are in need of a Jupyter notebook refresher, you should spend some time working through notebook 00-getting-started.ipynb. It will step you through how to interact with Jupyter notebooks, and how to reset your notebooks if you get really stuck. 
 
-- Jupyter notebooks are a literate programming environment combining _cells_ containing narration and cells containing code.  When a user executes a code cell, the output of running the code (whether a value, a table of records, a graph, or an error) is appended to the code cell.
-- Shift+Enter always executes the current cell and advances to the next one.  *This is really all of the Jupyter interface anyone absolutely needs to know.*
-- Cells only run if you execute them, you can run a cell more than once, you can edit a cell and run it again (or not).  This can be confusing!  Don't assume that you can reproduce the output in a notebook you've seen 
-- If you get really stuck, head up to the `Kernel` menu and select `Restart and clear output` to start fresh.
+Once you're confident interacting with this Jupyter notebook we're ready to sart on the fraud detection use case! 
