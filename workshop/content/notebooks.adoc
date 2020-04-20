@@ -10,12 +10,12 @@ The notebooks you'll work through today are numbered in order and (for the most 
 - `01-eda.ipynb` steps through some exploratory data analysis, allowing you to gain insight into the transactions data you will be working with today. You'll also inspect and transform some of the data.
 - `02-feature-engineering.ipynb` shows how to turn the transactions data into feature vectors. You'll transform each entry in the data set into numeric vector, whilst aiming to capture important information about the data. You will visualise these vectors to indicate if it is possible to identify any structure in the data that differentiates the legitimate transactions from the fraudulent ones.
 
-** At this point in the workshop you can choose which type of model you train** 
+**At this point in the workshop you can choose which type of model you train** 
 We have a `logistic regression model` and a `random forest model` for you to train. 
 
 - `03-model-logistic-regression.ipynb` shows how to train a logistic regression model to distinguish between fraudulent and legitimate transactions; and
 - `03-model-random-forest.ipynb` shows how to train an ensemble of decision trees to distinguish between fraudulent and legitimate transactions.
 
-You can also train both of the models, but whichever model you trained last will be read in by the next notebook. 
+If you want, you can train both of the models, but whichever model you trained last will be read in by the next notebook. 
 
 Congratulations! You've now stepped through training a model. 
