@@ -4,8 +4,6 @@
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-=== Logging into JupyterHub 
-
 Today we'll be working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is already installed in your OpenShift project and we access it through a `route`. 
 
 From the menu on the left-hand side of your OpenShift Console you will need to click on 'Networking' then 'Routes':

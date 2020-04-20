@@ -13,7 +13,7 @@ In this section you will:
 === Logging into the Openshift Console
 
 
-Visit **VISIT WEBSITE?** where you will see a screen like this:
+Visit https://console-openshift-console.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/ where you will see a screen like this:
 
 image::ocp-login.png[width=750]
 
