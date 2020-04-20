@@ -7,10 +7,10 @@
 
 This hands-on lab will show you how the machine learning workflow naturally fits into your general software development practice, how cross-functional teams build intelligent applications, and how the serverless capabilities of OpenShift 4 enable agile, efficient, and economical data and learning pipelines. Using an open-source stack, we'll show you:
 
-- how OpenShift streamlines the path from discovery to production for data scientists and developers alike,
-- the advantages of serverless for machine learning systems,
-- how to train, evaluate, and publish models in a contemporary, serverless architecture,
-- how to monitor models in production and detect failures before they cause problems, and
+- how OpenShift streamlines the path from discovery to production for data scientists and developers alike;
+- the advantages of serverless for machine learning systems;
+- how to train, evaluate, and publish models in a contemporary serverless architecture;
+- how to monitor models in production and detect failures before they cause problems; and
 - how to start incorporating intelligent features into your apps.
 
 You'll get the opportunity to develop your own fraud detection model and in doing so you'll see how Data Scientists work, how models are trained and to put machine learning models into production.
