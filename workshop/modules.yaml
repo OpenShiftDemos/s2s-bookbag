@@ -11,9 +11,9 @@ modules:
     exit_sign: Jupyter Notebooks
   jupyter:
     name: Jupyter Notebooks
-    exit_sign: Lab Exercises
+    exit_sign: Fraud Detection
   notebooks:
-    name: Lab Exercises
+    name: Fraud Detection
     exit_sign: Summary
   summary:
     name: Summary

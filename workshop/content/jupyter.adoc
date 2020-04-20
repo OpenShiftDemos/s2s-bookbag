@@ -3,7 +3,7 @@
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-You're now inside your JuptyerHub instance. The noteboks we will be working with today are in the `fraud-notebooks` folder, so go ahead and click on that. 
+You're now inside your JupyterHub instance. The noteboks we will be working with today are in the `fraud-notebooks` folder, so go ahead and click on that. 
 
 image::access-notebooks.png[width=750]
 

@@ -1,34 +1,21 @@
-:USER_GUID: %GUID%
-:USERNAME: %USERNAME%
+:USER_GUID: %guid%
+:USERNAME: %user%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
 
-== Notebooks
-
-The notebooks are numbered in order and (for the most part) you'll need to run them in order. Here's how to step through the notebooks:
+The notebooks you'll work through today are numbered in order and (for the most part) you'll need to run them in order. Here's how to step through the notebooks:
 
 
-`01-eda.ipynb` notebook steps through some exploratory data analalysis. In this notebook you load in the data you will be working with and inspect and transform some of the data.
+- `01-eda.ipynb` steps through some exploratory data analysis, allowing you to gain insight into the transactions data you will be working with today. You'll also inspect and transform some of the data.
+- `02-feature-engineering.ipynb` shows how to turn the transactions data into feature vectors. You'll transform each entry in the data set into numeric vector, whilst aiming to capture important information about the data. You will visualise these vectors to indicate if it is possible to identify any structure in the data that differentiates the legitimate transactions from the fraudulent ones.
 
-`02-feature-engineering.ipynb` shows how to turn the transactions data into feature vectors. 
-1 feature vector per transaction. 
-Transforming each entry in the transaction data into vectors of numbers. We will visualise these vectors to see if we can identify any structure in the data which exposes a difference between legitimate and fraudulant transaction.
+** At this point in the workshop you can choose which type of model you train** 
+We have a `logistic regression model` and a `random forest model` for you to train. 
 
-Feature engineering is a really important step in the Machine Learning workflow as extracting features in this step can influence how good your model is. 
-Finding signal in the data
+- `03-model-logistic-regression.ipynb` shows how to train a logistic regression model to distinguish between fraudulent and legitimate transactions; and
+- `03-model-random-forest.ipynb` shows how to train an ensemble of decision trees to distinguish between fraudulent and legitimate transactions.
 
-Model Training
+You can also train both of the models, but whichever model you trained last will be read in by the next notebook. 
 
-You can think of a machine learning model as a box into which you pass feature vectors and are returned a prediction. (For this fraud detection data the prediction will be 'fraud' or 'legitimate', but for other data sets the prediction may be an integer or a float.) These machine learning models have parameters that we must tune for, and when 'training' the model we are finding good parameter values,  whilst considering some tradeoffs, such as time taken to run the model. 
-
-Once we have trained the models, we need to evaluate their 
-These models each have parameters which need to be learned. We evaluate their performance on a test set.
-
-There are two different models you can try out today - logistic regression and random forest. 
-
-- `03-logistic-regression.ipynb` shows how to train a logistic regression model to distinguish between fradulent and legitimate transactions; and
-- `04-model-random-forest.ipynb` shows how to train an ensemble of decision trees to distinguish between fraudulent and legitimate transactions.
-
-
-Congratulations! You've now stepped through training a model 
+Congratulations! You've now stepped through training a model. 
