@@ -1,6 +1,6 @@
 :USER_GUID: %guid%
 :USERNAME: %user%
-:PASSWORD: %password%
+:PASSWORD: %openshift_password%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 

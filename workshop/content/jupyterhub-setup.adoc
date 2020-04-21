@@ -1,12 +1,10 @@
 :USER_GUID: %guid%
 :USERNAME: %user%
-:PASSWORD: %password%
+:PASSWORD: %openshift_password%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-Today we'll begin by working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is already installed in your OpenShift project and you can access it directly using the following URL: 
-
-https://jupyterhub-opendatahub-{USERNAME}.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/
+Today we'll begin by working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is already installed in your OpenShift project and you can access it directly by clicking https://jupyterhub-opendatahub-{USERNAME}.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/[here]
 
 This url will take you to a page asking you to 'Sign in with OpenShift'. Go ahead and click that big orange button.
 

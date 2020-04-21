@@ -1,5 +1,5 @@
 {
     "guid": "OKWI",
     "user": "user1",
-    "password": "openshift"
+    "openshift_password": "openshift"
 }

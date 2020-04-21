@@ -1,6 +1,6 @@
 :USER_GUID: %guid%
 :USERNAME: %user%
-:PASSWORD: %password%
+:PASSWORD: %openshift_password%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
@@ -17,7 +17,7 @@ In this section you will:
 === Logging into the Openshift Console
 
 
-Visit https://console-openshift-console.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/ where you will see a screen like this:
+Visit https://console-openshift-console.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/[the OpenShift Console] where you will see a screen like this:
 
 image::images/ocp-login.png[width=750]
 
