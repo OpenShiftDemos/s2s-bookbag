@@ -3,8 +3,8 @@ name: Bookbag Template
 modules:
   activate:
     - overview
-    - prepare-environment
     - jupyterhub-setup
     - jupyter
     - notebooks
+    - prepare-environment
     - summary
