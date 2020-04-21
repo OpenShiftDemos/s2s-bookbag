@@ -2,9 +2,6 @@
 modules:
   overview:
     name: From statistics to serverless - building intelligent applications on OpenShift 4
-    exit_sign: Logging into OpenShift
-  prepare-environment:
-    name: Logging into Openshift
     exit_sign: Logging into JupyterHub
   jupyterhub-setup:
     name: Logging into JupyterHub
@@ -14,6 +11,9 @@ modules:
     exit_sign: Fraud Detection
   notebooks:
     name: Fraud Detection
+    exit_sign: Logging into OpenShift
+  prepare-environment:
+    name: Logging into Openshift
     exit_sign: Summary
   summary:
     name: Summary
