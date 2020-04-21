@@ -15,7 +15,7 @@ In this section you will:
 
 Visit https://console-openshift-console.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/ where you will see a screen like this:
 
-image::ocp-login.png[width=750]
+image::images/ocp-login.png[width=750]
 
 Enter your username and password:
 
@@ -25,20 +25,20 @@ Your password is: *{PASSWORD}*
 
 Once you enter your details and click `Log In` you will be taken to a page that looks something like this: 
 
-image::landing-page.png[width=750]
+image::images/landing-page.png[width=750]
 
 __(Note that your project name and the username in the top right hand corner will differ from what you see here, reflecting your username instead.)__
 
 Go ahead and click on your project name to access your personal project:
 
-image::landing-page-hlt.png[width=750]
+image::images/landing-page-hlt.png[width=750]
 
 __(The project name is shown here as 'opendatahub-user1', but yours will be 'opendatahub-*{USERNAME}*.)__
 
 
 This will take you to a page showing your project details: 
 
-image::project-landing-page.png[width=750]
+image::images/project-landing-page.png[width=750]
 __Note that again your project name will differ from that shown in the image above.__
 
 Congratulations! You are now logged into OpenShift 4 and have accessed your Project, where you will be working today. In the next section we will log into JupyterHub.

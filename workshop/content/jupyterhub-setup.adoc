@@ -8,7 +8,7 @@ Today we'll be working in JupyterHub, a interactive development environment whic
 
 From the menu on the left-hand side of your OpenShift Console you will need to click on 'Networking' then 'Routes':
 
-image::project-landing-page-hlt.png[width=750]
+image::images/project-landing-page-hlt.png[width=750]
 
 This shows all of the routes which are exposed in your project. Access the route for your JupyterHub instance by clicking on the url for `jupyterhub`, which sits under the 'Location' column.
 
@@ -17,7 +17,7 @@ __(The urls given under 'Location' in your OpenShift Project will differ from th
 
 This url will take you to a page asking you to 'Sign in with OpenShift'. Go ahead and click that big orange button.
 
-image::jh-sign-in-with-os.png[width=750]
+image::images/jh-sign-in-with-os.png[width=750]
 
 In order to access JupyterHub you need to re-authenticate with the username and password you used to login to OpenShift.
 
@@ -27,7 +27,7 @@ Your password is: *{PASSWORD}*
 
 This will take you to a page asking you to authorise some requested permissions. You need to click 'Allow selected permissions' to continue with the workshop. Once you've authorised access You'll see the JupyterHub Spawner Options screen:
 
-image::jh-spawner.png[width=750]
+image::images/jh-spawner.png[width=750]
 
 **All these variables have been pre-set to the correct values for you, so do not change any spawner options.**
 
@@ -43,6 +43,6 @@ From top to bottom, the variables on this page are:
 	
 Go ahead and click `Spawn`. JupyterHub will set up that environment for you. This may take a few minutes and whilst the environment is spawning you will see a loading bar like this: 
 
-image::server-spawn.png[width=750]
+image::images/server-spawn.png[width=750]
 
 Congratulations! You've spawned a JupyterHub instance inside your OpenShift project. Now you're ready start working on your fraud detection model.
