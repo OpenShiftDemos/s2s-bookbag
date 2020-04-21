@@ -4,28 +4,21 @@
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-Today we'll be working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is already installed in your OpenShift project and we access it through a `route`. 
+Today we'll begin by working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is already installed in your OpenShift project and you can access it directly using the following URL: 
 
-From the menu on the left-hand side of your OpenShift Console you will need to click on 'Networking' then 'Routes':
-
-image::images/project-landing-page-hlt.png[width=750]
-
-This shows all of the routes which are exposed in your project. Access the route for your JupyterHub instance by clicking on the url for `jupyterhub`, which sits under the 'Location' column.
-
-image::routes-jupyter-hlt.png[width=750]
-__(The urls given under 'Location' in your OpenShift Project will differ from those shown in the image above.)__
+https://jupyterhub-opendatahub-{USERNAME}.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/
 
 This url will take you to a page asking you to 'Sign in with OpenShift'. Go ahead and click that big orange button.
 
 image::images/jh-sign-in-with-os.png[width=750]
 
-In order to access JupyterHub you need to re-authenticate with the username and password you used to login to OpenShift.
+You will be taken to a sign in page, and need to enter the following username and password:
 
 Your username is: *{USERNAME}*
 
 Your password is: *{PASSWORD}*
 
-This will take you to a page asking you to authorise some requested permissions. You need to click 'Allow selected permissions' to continue with the workshop. Once you've authorised access You'll see the JupyterHub Spawner Options screen:
+You will then be asked to authorise some requested permissions. You need to click 'Allow selected permissions' to continue with the workshop. Once you've authorised access, you'll see the JupyterHub Spawner Options screen:
 
 image::images/jh-spawner.png[width=750]
 

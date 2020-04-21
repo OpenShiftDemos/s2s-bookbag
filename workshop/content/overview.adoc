@@ -21,4 +21,4 @@ Application developers will leave this session equipped to build apps that depen
 
 All attendees will develop an understanding of how OpenShift supports both data science discovery and production machine learning systems.
 
-Let's get started by setting up our OpenShift Environment! 
+Let's get started! 

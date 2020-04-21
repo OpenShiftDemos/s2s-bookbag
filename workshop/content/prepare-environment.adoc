@@ -5,6 +5,10 @@
 :show_solution: true
 
 
+
+**THIS IS TO DO PIPELINE INSTRUCTIONS**
+
+
 In this section you will:
 
 - log into OpenShift, and
