@@ -60,7 +60,7 @@ image::images/serverless-admin-view.png[width=750]
 
 Make note of your service URL. 
 It should look like `http://pipeline.opendatahub-{USERNAME}.svc.cluster.local`.
-This is the URL that you will use for the next step, for which you will return to the Jupyter.
+This is the URL that you will use for the next step, for which you will return to JupyterHub.
 
 __(Note that this service is only visible from within the cluster, so it won't be able to access it in the browser.)__
 
