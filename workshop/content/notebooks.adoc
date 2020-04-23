@@ -19,3 +19,5 @@ We have a `logistic regression model` and a `random forest model` for you to tra
 If you want, you can train both of the models, but whichever model you trained last will be read in by the next notebook. 
 
 Congratulations! You've now stepped through training a model. 
+Now, let's deploy a service using this model. 
+First, we will log into the OpenShift Console. 
