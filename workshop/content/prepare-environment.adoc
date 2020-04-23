@@ -5,15 +5,6 @@
 :show_solution: true
 
 
-
-**THIS IS TO DO PIPELINE INSTRUCTIONS**
-
-
-In this section you will:
-
-- log into OpenShift, and
-- access your OpenShift project. 
-
 === Logging into the Openshift Console
 
 
@@ -45,5 +36,4 @@ This will take you to a page showing your project details:
 image::images/project-landing-page.png[width=750]
 __Note that again your project name will differ from that shown in the image above.__
 
-Congratulations! You are now logged into OpenShift 4 and have accessed your Project, where you will be working today. 
-In the next section will we will build and deploy the model service. 
+Congratulations! You are now logged into OpenShift 4 and have accessed your Project. In the next section will we will build and deploy the model service. 

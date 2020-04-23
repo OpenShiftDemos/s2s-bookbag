@@ -9,4 +9,4 @@ image::images/access-notebooks.png[width=750]
 
 If you haven't used Jupyter notebooks before, or are in need of a Jupyter notebook refresher, you should spend some time working through notebook `00-getting-started.ipynb`. It will step you through how to interact with Jupyter notebooks, and how to reset your notebooks if you get really stuck. 
 
-Once you're confident interacting with this Jupyter notebook we're ready to start on the fraud detection use case! 
+Once you're confident interacting with this Jupyter notebook you are ready to start on the fraud detection use case! 

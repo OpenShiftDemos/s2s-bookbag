@@ -12,4 +12,7 @@ Congratulations! You're now ready to go out into the world and make serverless, 
 - how to monitor models in production and detect failures before they cause problems, and
 - how to start incorporating intelligent features into your apps.
 
-**links for people to follow up here**
+To find out more about AI and ML at Red Hat, take a look these links:
+
+* **The Open Data Hub project** opendatahub.io/
+* **Next.redhat.com articles** next.redhat.com/category/ai-machine-learning/
