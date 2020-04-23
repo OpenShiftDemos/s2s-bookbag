@@ -19,12 +19,12 @@ You should see now the build pipeline.
 
 image::images/pipelines-view.png[width=750]
 
-You can click on the pipeline to inspect its definition. 
+Click on the pipeline to inspect its definition. 
 A build pipeline is made of one or more tasks. 
 For this lab, we will run a build pipeline with two tasks running sequentially:
 
 * a task that will build a container image that contains the model we trained and push it to an OpenShift Image Stream;
-* a task that will deploy service using OpenShift Serverless
+* a task that will deploy a service using OpenShift Serverless
 
 image::images/pipelines-detail.png[width=750]
 
@@ -48,7 +48,7 @@ image::images/pipeline-log.png[width=750]
 
 Wait until the build pipeline completes.
 It can take a few minutes. 
-Once it does, you can proceed to inspect your newly deployed service.
+Once it does, "Ready to serve" will appear in the logs, and you can proceed to inspect your newly deployed service.
 
 === Accessing the Model Service
 
@@ -62,7 +62,7 @@ Make note of your service URL.
 It should look like `http://pipeline.opendatahub-{USERNAME}.svc.cluster.local`.
 This is the URL that you will use for the next step, for which you will return to JupyterHub.
 
-__(Note that this service is only visible from within the cluster, so it won't be able to access it in the browser.)__
+__(Note that this service is only visible from within the cluster, so you won't be able to access it in the browser.)__
 
 === Making Predictions Using the Model Service
 
