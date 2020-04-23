@@ -15,9 +15,6 @@ By now, you should have completed the "Logging into Openshift" section.
 If you did not, return to the previous step.
 
 In the sidebar menu, navigate to the "Pipelines" section and open the "Pipelines" subsection.
-
-image::images/pipelines-menu.png
-
 You should see now the build pipeline. 
 
 image::images/pipelines-view.png[width=750]
