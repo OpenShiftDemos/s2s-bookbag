@@ -14,7 +14,7 @@ modules:
     exit_sign: Logging into OpenShift
   prepare-environment:
     name: Logging into Openshift
-    exit_sign: Buildinf and Deploying the Service
+    exit_sign: Building and Deploying the Service
   build-and-deploy:
     name: Building and Deploying the Service 
     exit_sign: Summary

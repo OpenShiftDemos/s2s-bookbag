@@ -7,4 +7,5 @@ modules:
     - jupyter
     - notebooks
     - prepare-environment
+    - build-and-deploy
     - summary
