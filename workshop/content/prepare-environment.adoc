@@ -45,4 +45,5 @@ This will take you to a page showing your project details:
 image::images/project-landing-page.png[width=750]
 __Note that again your project name will differ from that shown in the image above.__
 
-Congratulations! You are now logged into OpenShift 4 and have accessed your Project, where you will be working today. In the next section we will log into JupyterHub.
+Congratulations! You are now logged into OpenShift 4 and have accessed your Project, where you will be working today. 
+In the next section will we will build and deploy the model service. 
