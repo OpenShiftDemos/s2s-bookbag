@@ -21,6 +21,8 @@ function initialize(workshop) {
         for (var varname in workshop_vars) {
             workshop.data_variable(varname, workshop_vars[varname]);
         }
+        var openshift_domain = workshop_vars['openshift_webconsole_url'].split(".").slice(-3).join(".");
+        workshop.data_variable('openshift_route_domain', openshift_domain);
     } catch(err) {}
 }
 
