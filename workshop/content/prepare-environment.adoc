@@ -1,6 +1,7 @@
 :USER_GUID: %guid%
 :USERNAME: %user%
 :PASSWORD: %openshift_password%
+:OPENSHIFT_URL: %openshift_webconsole_url%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
@@ -8,7 +9,7 @@
 === Logging into the Openshift Console
 
 
-Visit https://console-openshift-console.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/[the OpenShift Console] where you will see a screen like this:
+Visit {OPENSHIFT_URL}[the OpenShift Console] where you will see a screen like this:
 
 image::images/ocp-login.png[width=750]
 

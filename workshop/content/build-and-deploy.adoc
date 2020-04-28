@@ -1,6 +1,7 @@
 :USER_GUID: %guid%
 :USERNAME: %user%
 :PASSWORD: %openshift_password%
+:OPENSHIFT_URL: %openshift_webconsole_url%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
@@ -10,7 +11,7 @@ In this section you will learn how to use OpenShift Pipelines to build a RESTful
 
 === Accessing the build pipeline
 
-Visit https://console-openshift-console.apps.cluster-{USER_GUID}.{USER_GUID}.events.opentlc.com/[the OpenShift Console].
+Visit {OPENSHIFT_URL}[the OpenShift Console].
 By now, you should have completed the "Logging into Openshift" section. 
 If you did not, return to the previous step.
 
