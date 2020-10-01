@@ -1,7 +1,7 @@
 :USER_GUID: %guid%
-:USERNAME: %user%
-:PASSWORD: %openshift_password%
-:OPENSHIFT_URL: %openshift_webconsole_url%
+:USERNAME: %ocp_username%
+:OPENSHIFT_URL: %web_console_url%
+:JUPYTERHUB_URL: %jupyter_url%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
@@ -15,9 +15,10 @@ image::images/ocp-login.png[width=750]
 
 Enter your username and password:
 
-Your username is: *{USERNAME}*
+Your username is your OpenTLC Username: *{USERNAME}* 
 
-Your password is: *{PASSWORD}*
+Your password is your OpenTLC Password.
+
 
 Once you enter your details and click `Log In` you will be taken to a page that looks something like this: 
 
@@ -29,7 +30,7 @@ Go ahead and click on your project name to access your personal project:
 
 image::images/landing-page-hlt.png[width=750]
 
-__(The project name is shown here as 'opendatahub-user1', but yours will be 'opendatahub-*{USERNAME}*.)__
+__(The project name is shown here as 'opendatahub-user1', but yours will be 'opendatahub-*s2s-{USER_GUID}-project*.)__
 
 
 This will take you to a page showing your project details: 

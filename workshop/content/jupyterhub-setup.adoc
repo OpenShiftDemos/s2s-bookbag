@@ -1,11 +1,12 @@
 :USER_GUID: %guid%
-:USERNAME: %user%
-:PASSWORD: %openshift_password%
-:DOMAIN: %openshift_route_domain%
+:USERNAME: %ocp_username%
+:OPENSHIFT_URL: %web_console_url%
+:JUPYTERHUB_URL: %jupyter_url%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
 
-Today we'll begin by working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is running in your OpenShift project and you can access it directly by clicking https://jupyterhub-opendatahub-{USERNAME}.apps.cluster-{USER_GUID}.{USER_GUID}.{DOMAIN}/[here].
+
+Today we'll begin by working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is running in your OpenShift project and you can access it directly by clicking {JUPYTERHUB_URL}/[here].
 
 This url will take you to a page asking you to 'Sign in with OpenShift'. Go ahead and click that big orange button.
 
@@ -13,9 +14,9 @@ image::images/jh-sign-in-with-os.png[width=750]
 
 You will be taken to a sign in page, and need to enter the following username and password:
 
-Your username is: *{USERNAME}*
+Your username is your OpenTLC Username: *{USERNAME}* 
 
-Your password is: *{PASSWORD}*
+Your password is your OpenTLC Password.
 
 You will then be asked to authorise some requested permissions. You need to click 'Allow selected permissions' to continue with the workshop. Once you've authorised access, you'll see the JupyterHub Spawner Options screen:
 

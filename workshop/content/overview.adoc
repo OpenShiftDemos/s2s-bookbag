@@ -1,8 +1,10 @@
 :USER_GUID: %guid%
-:USERNAME: %user%
-:PASSWORD: %openshift_password%
+:USERNAME: %ocp_username%
+:OPENSHIFT_URL: %web_console_url%
+:JUPYTERHUB_URL: %jupyter_url%
 :markup-in-source: verbatim,attributes,quotes
 :show_solution: true
+
 
 
 This hands-on lab will show you how the machine learning workflow naturally fits into your general software development practice, how cross-functional teams build intelligent applications, and how the serverless capabilities of OpenShift 4 enable agile, efficient, and economical data and learning pipelines. Using an open-source stack, we'll show you:
