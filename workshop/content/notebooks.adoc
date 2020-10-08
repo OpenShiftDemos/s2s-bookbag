@@ -4,10 +4,13 @@
 :show_solution: true
 
 
-The notebooks you'll work through today are numbered in order and (for the most part) you'll need to run them in order. Here's how to step through the notebooks:
 
+Each notebook in your project is numbered in order and (for the most part) you'll need to run them in order. 
 
-- `01-eda.ipynb` steps through some exploratory data analysis, allowing you to gain insight into the transactions data you will be working with today. You'll also inspect and transform some of the data.
+Start with notebook *`01-eda.ipynb`*. This notebook steps through some exploratory data analysis, allowing you to gain insight into the transactions data you will be working with today. You'll also inspect and transform some of the data.
+
+The next notebooks cover the feature engineering and model training sections of the machine learning workflow. 
+
 - `02-feature-engineering.ipynb` shows how to turn the transactions data into feature vectors. You'll transform each entry in the data set into numeric vector, whilst aiming to capture important information about the data. You will visualise these vectors to indicate if it is possible to identify any structure in the data that differentiates the legitimate transactions from the fraudulent ones.
 
 **At this point in the workshop you can choose which type of model you train.** 
@@ -16,9 +19,13 @@ We have a `logistic regression model` and a `random forest model` for you to cho
 - `03-model-logistic-regression.ipynb` shows how to train a logistic regression model to distinguish between fraudulent and legitimate transactions; and
 - `03-model-random-forest.ipynb` shows how to train an ensemble of decision trees to distinguish between fraudulent and legitimate transactions.
 
-If you want, you can train both of the models, but whichever model you trained last will be read in by the next notebook. 
-
-Congratulations! You've now stepped through training a model. 
+If you want, you can train both of the models. 
 
 
-We will now use OpenShift to deploy this model as a service, but before we can do this we need to log into into the OpenShift Console. 
+Congratulations! You've used Jupyter notebooks to develop a model training pipeline which takes in raw data, extracts features from that data, and trains a model. You've also seen how to test that model on a testing set. 
+
+If you're used to software engineering, you'll notice that Jupyter notebooks don't look like production-ready artifacts. Data scientists shouldn't have to become software engineers in order to get their jobs done, but more and more we are seeing data scientists being responsible for _serving_ their models, once they've trained them.
+
+In the rest of this workshop we will use OpenShift to deploy our trained model as a service, and monitor the model over time! 
+
+Let's go! 

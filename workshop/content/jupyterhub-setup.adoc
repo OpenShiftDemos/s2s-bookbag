@@ -6,13 +6,20 @@
 :show_solution: true
 
 
-Today we'll begin by working in JupyterHub, a interactive development environment which serves Jupyter Notebooks. JupyterHub is running in your OpenShift project and you can access it directly by clicking {JUPYTERHUB_URL}/[here].
+Today we'll begin by working in JupyterHub. an interactive development environment which serves Jupyter Notebooks.
 
-This url will take you to a page asking you to 'Sign in with OpenShift'. Go ahead and click that big orange button.
+_JupyterHub is already deployed within your OpenShift project - we set it up for you using the Open Data Hub Operator._
+
+*Access JupyterHub directly by clicking {JUPYTERHUB_URL}[here].*
+
+You will be taken to a page asking you to 'Sign in with OpenShift'. 
 
 image::images/jh-sign-in-with-os.png[width=750]
 
-You will be taken to a sign in page, and need to enter the following username and password:
+*Go ahead and click that big orange button.*
+You will be taken to a sign in page. 
+
+*Sign into JupyterHub*
 
 Your username is your OpenTLC Username: *{USERNAME}* 
 
@@ -30,11 +37,12 @@ From top to bottom, the variables on this page are:
 * t-shirt sizing for the environment. Make sure you keep this as `Default`, else you won't be able to run the notebooks.
 * the number of GPUs you want to use. (We don't have any GPUs on the cluster we're working on today, so keep this at `0`!)
 * Environment variables relating to the persistent volume which JupyterHub creates in our project:
-** the location of a git repo containing the notebooks you want to clone into your persistant volume. The repo for this workshop is https://github.com/willb/fraud-notebooks. 
+** the location of a git repo containing the notebooks you want to clone into your persistant volume. The repo for this workshop is 'https://github.com/willb/fraud-notebooks'. 
 ** secrets and access keys for any other storage you wish to connect to. (This should be left blank.)
 ** any extra variable names you want to specify. (This should also be left blank.)
 	
-Go ahead and click `Spawn`. JupyterHub will set up that environment for you. This may take a few minutes and whilst the environment is spawning you will see a loading bar like this: 
+*Go ahead and click `Spawn`.*
+JupyterHub will set up that environment for you. This may take a few minutes and whilst the environment is spawning you will see a loading bar like this: 
 
 image::images/server-spawn.png[width=750]
 

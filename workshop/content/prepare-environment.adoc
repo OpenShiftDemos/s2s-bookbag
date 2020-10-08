@@ -30,7 +30,7 @@ Go ahead and click on your project name to access your personal project:
 
 image::images/landing-page-hlt.png[width=750]
 
-__(The project name is shown here as 'opendatahub-user1', but yours will be 'opendatahub-*s2s-{USER_GUID}-project*.)__
+__(The project name is shown here as 'opendatahub-user1', but yours will be '*s2s-{USER_GUID}-project*.)__
 
 
 This will take you to a page showing your project details: 
@@ -38,4 +38,4 @@ This will take you to a page showing your project details:
 image::images/project-landing-page.png[width=750]
 __Note that again your project name will differ from that shown in the image above.__
 
-Congratulations! You are now logged into OpenShift 4 and have accessed your Project. In the next section will we will build and deploy the model service. 
+Congratulations! You are now logged into OpenShift and have accessed your Project. In the next section will we will build and deploy the model service. 

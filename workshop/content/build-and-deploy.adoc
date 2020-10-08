@@ -69,6 +69,6 @@ __(Note that this service is only visible from within the cluster, so you won't 
 
 Congratulations!
 You have successfully built and deployed a service that makes predictions based on the model you trained earlier.
-Now you can return to {JUPYTERHUB_URL}[JupyterHub] and open the `04-services.ipynb` notebook, which will walk you through a few scenarios where you can invoke this service.
+Now you can return to {JUPYTERHUB_URL}[JupyterHub] and open the `04-services.ipynb` notebook, which will walk you through a few scenarios where you can invoke this service, and suggest metrics you can visualise in Grafana. 
 
 

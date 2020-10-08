@@ -7,20 +7,34 @@
 
 
 
-This hands-on lab will show you how the machine learning workflow naturally fits into your general software development practice, how cross-functional teams build intelligent applications, and how the serverless capabilities of OpenShift 4 enable agile, efficient, and economical data and learning pipelines. Using an open-source stack, we'll show you:
+This hands-on lab will show you how the machine learning workflow naturally fits into your general software development practice, how cross-functional teams build intelligent applications, and how the serverless capabilities of OpenShift 4 enable agile, efficient, and economical data and learning pipelines. Using an open-source stack, you will:
 
-- how OpenShift streamlines the path from discovery to production for data scientists and developers alike;
-- the advantages of serverless for machine learning systems;
-- how to train, evaluate, and publish models in a contemporary serverless architecture;
-- how to monitor models in production, and detect failures before they cause problems; and
-- how to start incorporating intelligent features into your apps.
+- learn some processes and principles to solve problems with ML, including some special considerations for time-series and payments data
+- train, evaluate and deploy a machine learning model
+- gain insight into how OpenShift makes it possible to streamline the transition from discovery to production for machine learning workloads 
 
-You'll get the opportunity to develop your own fraud detection model and in doing so you'll see how Data Scientists work, how models are trained and how to put machine learning models into production.
+You'll get the opportunity to develop your own fraud detection model and in doing so you'll see how Data Scientists work, how models are developed and how to put machine learning models into production. We'll work through stages of the Machine learning workflow, which is shown below: 
 
-You'll see how to take advantage of the serverless capabilities of OpenShift 4 to make your fraud detection model part of a scalable, intelligent application. 
+image::images/workflow.png[width=750]
 
-Application developers will leave this session equipped to build apps that depend on machine learning; machine learning engineers and data scientists will leave this session prepared to take full advantage of OpenShift 4 for their daily work. 
+This workflow is encapsulates the stages a Data Scientist or ML Engineer carries out when tasked with solving a problem. We'll dive deeper into these stages later in the workshop. 
 
-All attendees will develop an understanding of how OpenShift supports both data science discovery and production machine learning systems.
+Application developers will leave this session equipped to build apps that depend on machine learning; machine learning engineers and data scientists will leave this session prepared to take full advantage of OpenShift 4 for their daily work. All attendees will develop an understanding of how OpenShift supports both data science discovery and production machine learning systems.
+
+Some of the tools and technologies you'll see today are: 
+
+- The Open Data Hub
+- Jupyter Notebooks
+- OpenShift Pipelines
+- OpenShift Serverless
+- Source-to-Image Builds
+- Prometheus and Grafana
+
+We'll talk more about each of these when we use them in the workshop. 
+
+
+
+
+
 
 Let's get started! 
